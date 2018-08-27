@@ -45,7 +45,10 @@ public with sharing class ExampleClass {
 
 	@deprecated
 	public void oldMethod() {
-
+		for (Contact contact : [SELECT Id FROM Contact]) {
+			contact.Name = 'Test';
+			update contact;
+		}
 	}
 
 	public void WrongCaseMethod() {
