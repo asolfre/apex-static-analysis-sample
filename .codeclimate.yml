@@ -1,0 +1,9 @@
+plugins:
+  pmd:
+    enabled: true
+  apexmetrics:   # deprecated plugin
+    enabled: true
+  fixme:
+    enabled: true
+  markdownlint:
+    enabled: true
