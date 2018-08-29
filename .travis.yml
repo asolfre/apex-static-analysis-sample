@@ -11,6 +11,7 @@ jdk:
 
 script:
   - sonar-scanner
+  - sh pmd.sh
 
 cache:
   directories:
