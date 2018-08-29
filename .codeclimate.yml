@@ -1,6 +1,7 @@
 plugins:
   pmd:
     enabled: true
+    config: ruleset.xml
   apexmetrics:   # deprecated plugin
     enabled: true
   fixme:
