@@ -3,7 +3,7 @@ sudo: required
 
 addons:
   sonarcloud:
-    organization: "asolfre"
+    organization: "asolfre-github"
     token:
         secure: "QGcM2GgkPJIyVMQJGfda8BGvcZNf5y3b37wQ/MuaMpG9yAhH1wdOwUzAl+ssxC3rDbDzr+bzXjDAm9+aBHk/xLiD74LmNadIdMo1KYetPk4KqHCXidA5wig8/BYloOjMIMN7BdYScSPnOc81PmFtdhO38R/M2lVHDlJ3fLmDy0xlp5MYVtN4klxg4mQlQDeWp831M2VlPWP22h/iAO5thoD7wpZC0bmcBUvoH7cMQhWWcAdo1LJVP+yv5BntMhLut94leJhhQkr5CpWN12k48waF3z5iX29V9rqYJDGugO3PsQz9dSFlcY8CTwNEngjb8bzHKBuRn0ThiYvNVD0OaeY5Pf2LVSl4PL4IKEa3iT/HSwQcfpR3ToWBAoj5+06cpcUDKyIGrZy5lojUwrGNKmUmpqIEzEoM95mty9KE7+koWUtpJEdbEd+jKreuVbdoDeSKUX6uCxoX2sufEitauOdPpJDvuoefc7OIH0iP5BEXlyzJZyXuwoibKtGTONFWWPQaphj8KXoh+3pzquxslBe15B3NvWw71lbeDEPU7qu213KIEELYMuys780HI0CZMCC8T5hURle+GkqWnNxxqI7Z0OhcdjC90wDK2KnS6aaph+ZP3qskr1uD7Io9TRng8ReVFhpSqfZsFXpO4FDKjG13rnvx3ILBYa7wBe+B55M="
 jdk:
