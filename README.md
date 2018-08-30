@@ -17,4 +17,25 @@ Sample app to test apex static code analysis tools.
 
 ## PMD
 
+First, install PMD by running:
+
+```shell
+cd $HOME
+curl -OL https://github.com/pmd/pmd/releases/download/pmd_releases%2F6.6.0/pmd-bin-6.6.0.zip
+unzip pmd-bin-6.6.0.zip
+alias pmd="$HOME/pmd-bin-6.6.0/bin/run.sh pmd
+```
+
+Then the analysis can be triggered with:
+
+```shell
+pmd -d . -R apex_ruleset.xml -f xml -reportfile pmd-report.xml -l apex
+```
+
 ## SonarCloud
+
+As SonarCloud does not support Apex language, an attempt to use SonarCloud as other tools collector is done. A PMD analysis is triggered in TravisCI and exported to SonarCloud by specifiying 'sonar.java.pmd.reportPaths=./pmd-report.xml' in the sonar-project.properties.
+
+TravisCI builds: [https://travis-ci.org/asolfre/apex-static-analysis-sample/builds/](https://travis-ci.org/asolfre/apex-static-analysis-sample/builds/)
+
+[Live SonarCloud Project](https://sonarcloud.io/dashboard?id=apex-static-analysis-sample)
