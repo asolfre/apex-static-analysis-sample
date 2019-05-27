@@ -21,9 +21,9 @@ First, install PMD by running:
 
 ```shell
 cd $HOME
-curl -OL https://github.com/pmd/pmd/releases/download/pmd_releases%2F6.6.0/pmd-bin-6.6.0.zip
-unzip pmd-bin-6.6.0.zip
-alias pmd="$HOME/pmd-bin-6.6.0/bin/run.sh pmd
+curl -OL https://github.com/pmd/pmd/releases/download/pmd_releases%2F6.15.0/pmd-bin-6.15.0.zip
+unzip pmd-bin-6.15.0.zip
+alias pmd="$HOME/pmd-bin-6.15.0/bin/run.sh pmd
 ```
 
 Then the analysis can be triggered with:
